@@ -30,10 +30,10 @@ void main() {
           MaterialApp(
             theme: AppTheme.getLightTheme(theme),
             darkTheme: AppTheme.getDarkTheme(theme),
-            home: const Scaffold(body: Text('نور آية')),
+            home: const Scaffold(body: Text('ومضة')),
           ),
         );
-        expect(find.text('نور آية'), findsOneWidget);
+        expect(find.text('ومضة'), findsOneWidget);
       }
     });
   });

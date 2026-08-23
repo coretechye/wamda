@@ -136,7 +136,7 @@ class NotificationService {
       // جدولة الإشعار اليومي
       await _notifications.zonedSchedule(
         0, // notification ID
-        '🌟 نور آية - آية اليوم',
+        '🌟 ومضة - آية اليوم',
         verse.verseText,
         scheduledDate,
         details,

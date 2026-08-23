@@ -1,12 +1,12 @@
-# Agent instructions — نور آية (Flutter APK)
+# Agent instructions — ومضة (Flutter APK)
 
 ## إعدادات مكتشفة (Flutter APK)
 
 | المتغير | القيمة |
 |---------|--------|
 | Flutter root | `.` (جذر الريبو) |
-| `applicationId` | `com.noorayah.app` |
-| App name | نور آية |
+| `applicationId` | `ye.coretech.wamda` |
+| App name | ومضة |
 | `pubspec` name | `noor_ayah` |
 | pubspec version | `1.0.2+2` |
 | Release tag prefix | `noor-ayah-v` |
@@ -38,7 +38,7 @@
    - ملاحظات: arm64-v8a فقط، `applicationId` ثابت، توقيع `release.keystore`.
 8. **أرسل للمستخدم:** رابط صفحة Release + **رابط التحميل المباشر** للأصل + النسخة `X.Y.Z+BUILD`.
 
-**تحديث التطبيق دون حذف:** نفس `applicationId` (`com.noorayah.app`) + نفس `android/app/release.keystore`.
+**تحديث التطبيق دون حذف:** نفس `applicationId` (`ye.coretech.wamda`) + نفس `android/app/release.keystore`.
 
 **بديل:** من جذر الريبو:
 

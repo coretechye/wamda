@@ -214,7 +214,7 @@ class ModernTemplate extends StatelessWidget {
           ),
           const SizedBox(width: 20),
           const Text(
-            'نور آية',
+            'ومضة',
             style: TextStyle(
               fontFamily: 'IBMPlexArabic',
               fontSize: 42,
@@ -239,7 +239,7 @@ class ModernTemplate extends StatelessWidget {
         ),
       ),
       child: const Text(
-        'من كل آية.. نور وهداية',
+        'آية تضيء يومك',
         style: TextStyle(
           fontFamily: 'Cairo',
           fontSize: 36,

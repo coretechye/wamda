@@ -296,7 +296,7 @@ class DuaModernTemplate extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: const [
                   Text(
-                    'نور آية',
+                    'ومضة',
                     style: TextStyle(
                       fontFamily: 'IBMPlexArabic',
                       fontSize: 32,
@@ -305,7 +305,7 @@ class DuaModernTemplate extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'من كل آية.. نور وهداية',
+                    'آية تضيء يومك',
                     style: TextStyle(
                       fontFamily: 'IBMPlexArabic',
                       fontSize: 20,

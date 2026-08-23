@@ -259,7 +259,7 @@ class DarkTemplate extends StatelessWidget {
           const Text('🌙', style: TextStyle(fontSize: 40)),
           const SizedBox(width: 20),
           Text(
-            'نور آية',
+            'ومضة',
             style: TextStyle(
               fontFamily: 'IBMPlexArabic',
               fontSize: 46,
@@ -284,7 +284,7 @@ class DarkTemplate extends StatelessWidget {
         ),
       ),
       child: Text(
-        'من كل آية.. نور وهداية',
+        'آية تضيء يومك',
         style: TextStyle(
           fontFamily: 'Cairo',
           fontSize: 34,

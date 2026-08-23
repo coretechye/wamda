@@ -1,4 +1,4 @@
-package com.noorayah.app
+package ye.coretech.wamda
 
 import android.content.Context
 import android.media.AudioManager

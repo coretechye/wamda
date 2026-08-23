@@ -64,7 +64,7 @@ class ImageShareService {
       await Share.shareXFiles(
         [XFile(imageFile.path)],
         text: text,
-        subject: 'نور آية - من كل آية.. نور وهداية',
+        subject: 'ومضة - آية تضيء يومك',
       );
       debugPrint('✅ تم مشاركة الصورة');
     } catch (e) {

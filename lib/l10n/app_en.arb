@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "appName": "Noor Ayah",
+  "appName": "Wamda",
   "appSlogan": "Light and guidance from every verse",
   "today": "Today",
   "categories": "Categories",
@@ -91,7 +91,7 @@
   "sageThemeDesc": "Soft, eye-friendly green",
   "goldenThemeDesc": "Warm gold",
   "beigeThemeDesc": "Eye-friendly sand",
-  
+
   "@_DUA_OF_DAY": {},
   "duaOfTheDay": "Dua of the Day",
   "allDuas": "All Duas",
@@ -107,7 +107,7 @@
   "modernTemplate": "Modern",
   "minimalTemplate": "Minimal",
   "islamicTemplate": "Islamic",
-  
+
   "@_DAILY_WIRD": {},
   "dailyWird": "Daily Wird",
   "myDailyWird": "My Daily Wird",
@@ -125,7 +125,7 @@
   "evening": "Evening",
   "night": "Night",
   "anytime": "Anytime",
-  
+
   "@_SYNC": {},
   "contentSync": "Content Sync",
   "checkForUpdates": "Check for Updates",
@@ -145,7 +145,7 @@
   "syncCompleted": "Update Completed Successfully",
   "syncError": "Sync Error",
   "upToDate": "You're using the latest version",
-  
+
   "@_ACHIEVEMENTS_EXTENDED": {},
   "points": "Points",
   "rank": "Rank",
@@ -160,7 +160,7 @@
   "expert": "Expert",
   "master": "Master",
   "sheikh": "Sheikh",
-  
+
   "@_AUDIO": {},
   "playRecitation": "Play Recitation",
   "pauseRecitation": "Pause Recitation",

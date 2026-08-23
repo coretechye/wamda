@@ -354,7 +354,7 @@ class DuaIslamicTemplate extends StatelessWidget {
           child: Column(
             children: const [
               Text(
-                'نور آية',
+                'ومضة',
                 style: TextStyle(
                   fontFamily: 'IBMPlexArabic',
                   fontSize: 40,
@@ -364,7 +364,7 @@ class DuaIslamicTemplate extends StatelessWidget {
               ),
               SizedBox(height: 5),
               Text(
-                'من كل آية.. نور وهداية',
+                'آية تضيء يومك',
                 style: TextStyle(
                   fontFamily: 'IBMPlexArabic',
                   fontSize: 24,

@@ -1,6 +1,6 @@
 # سجل التغييرات - Changelog
 
-تاريخ التحديثات والإصدارات لتطبيق **نور آية**
+تاريخ التحديثات والإصدارات لتطبيق **ومضة**
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### 🎉 الإصدار الأول - نسخة كاملة!
 
-أول إصدار رسمي من تطبيق نور آية مع 8 مميزات رئيسية و13 شاشة!
+أول إصدار رسمي من تطبيق ومضة مع 8 مميزات رئيسية و13 شاشة!
 
 ---
 
@@ -148,27 +148,27 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   shared_preferences: ^2.2.2
-  
+
   # UI & Design
   google_fonts: ^6.1.0
-  
+
   # Sharing & Media
   share_plus: ^7.2.1
   screenshot: ^3.0.0
   path_provider: ^2.1.4
-  
+
   # Notifications & Permissions
   flutter_local_notifications: ^17.2.4
   timezone: ^0.9.4
   permission_handler: ^11.4.0
-  
+
   # Calendar & Dates
   hijri: ^3.0.0
   intl: ^0.19.0
-  
+
   # Audio (قادم في 1.1.0)
   just_audio: ^0.9.46
-  
+
   # Localization
   flutter_localizations: (SDK)
 ```
@@ -267,11 +267,11 @@ dependencies:
 
 ---
 
-**Package Name:** `com.noorayah.app`  
+**Package Name:** `ye.coretech.wamda`
 **التطبيق مجاني ومفتوح المصدر**
 
 ---
 
 **جزاكم الله خيراً** 🌟
 
-> من كل آية.. نور وهداية
+> آية تضيء يومك

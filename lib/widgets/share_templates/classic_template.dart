@@ -229,7 +229,7 @@ class ClassicTemplate extends StatelessWidget {
     return Column(
       children: [
         Text(
-          'نور آية',
+          'ومضة',
           style: TextStyle(
             fontFamily: 'IBMPlexArabic',
             fontSize: 48,
@@ -239,7 +239,7 @@ class ClassicTemplate extends StatelessWidget {
         ),
         const SizedBox(height: 10),
         Text(
-          'من كل آية.. نور وهداية',
+          'آية تضيء يومك',
           style: TextStyle(
             fontFamily: 'IBMPlexArabic',
             fontSize: 32,

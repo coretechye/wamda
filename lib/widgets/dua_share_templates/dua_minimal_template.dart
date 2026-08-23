@@ -103,7 +103,7 @@ class DuaMinimalTemplate extends StatelessWidget {
 
                 // اسم التطبيق
                 const Text(
-                  'نور آية',
+                  'ومضة',
                   style: TextStyle(
                     fontFamily: 'IBMPlexArabic',
                     fontSize: 32,

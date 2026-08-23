@@ -1,4 +1,4 @@
-# سجل تغييرات الخطوط - نور آية 📝
+# سجل تغييرات الخطوط - ومضة 📝
 
 ## التاريخ: أكتوبر 14, 2025
 
@@ -6,13 +6,13 @@
 
 ## 📦 ملخص التحديث
 
-تم **تحميل وتكوين جميع الخطوط الرسمية** اللازمة لدعم **5 لغات** في تطبيق نور آية:
+تم **تحميل وتكوين جميع الخطوط الرسمية** اللازمة لدعم **5 لغات** في تطبيق ومضة:
 
-✅ العربية (ar) - 5 خطوط قرآنية  
-✅ الأردية (ur) - خط نستعليق أصيل  
-✅ الإنجليزية (en) - خطوط احترافية  
-✅ الفرنسية (fr) - خطوط احترافية  
-✅ الإندونيسية (id) - خطوط احترافية  
+✅ العربية (ar) - 5 خطوط قرآنية
+✅ الأردية (ur) - خط نستعليق أصيل
+✅ الإنجليزية (en) - خطوط احترافية
+✅ الفرنسية (fr) - خطوط احترافية
+✅ الإندونيسية (id) - خطوط احترافية
 
 ---
 
@@ -96,45 +96,45 @@ fonts:
   - family: UthmanicHafs
     fonts:
       - asset: assets/fonts/UthmanicHafs1Ver18.ttf
-  
+
   - family: ScheherazadeNew
     fonts:
       - asset: assets/fonts/ScheherazadeNew-Regular.ttf
       - asset: assets/fonts/ScheherazadeNew-Bold.ttf
         weight: 700
-  
+
   - family: Lateef
     fonts:
       - asset: assets/fonts/Lateef-Regular.ttf
       - asset: assets/fonts/Lateef-Bold.ttf
         weight: 700
-  
+
   - family: Amiri
     fonts:
       - asset: assets/fonts/Amiri-Regular.ttf
       - asset: assets/fonts/Amiri-Bold.ttf
         weight: 700
-  
+
   - family: Cairo
     fonts:
       - asset: assets/fonts/Cairo-Regular.ttf
       - asset: assets/fonts/Cairo-Bold.ttf
         weight: 700
-  
+
   # خطوط للغة الأردية
   - family: NotoNastaliqUrdu
     fonts:
       - asset: assets/fonts/NotoNastaliqUrdu-Regular.ttf
       - asset: assets/fonts/NotoNastaliqUrdu-Bold.ttf
         weight: 700
-  
+
   # خطوط للغات اللاتينية
   - family: Roboto
     fonts:
       - asset: assets/fonts/Roboto-Regular.ttf
       - asset: assets/fonts/Roboto-Bold.ttf
         weight: 700
-  
+
   - family: NotoSans
     fonts:
       - asset: assets/fonts/NotoSans-Regular.ttf
@@ -348,14 +348,14 @@ fontProvider.setLocale('ur');
 
 ---
 
-**التاريخ:** 14 أكتوبر 2025  
-**الإصدار:** 1.0.0  
-**الحالة:** ✅ مكتمل (مع ملاحظة بخصوص Uthmanic Hafs)  
-**المطور:** نور آية - فريق التطوير
+**التاريخ:** 14 أكتوبر 2025
+**الإصدار:** 1.0.0
+**الحالة:** ✅ مكتمل (مع ملاحظة بخصوص Uthmanic Hafs)
+**المطور:** ومضة - فريق التطوير
 
 ---
 
-> **نور آية** - من كل آية.. نور وهداية 🌙
+> **ومضة** - آية تضيء يومك 🌙
 
 **جزاكم الله خيراً على استخدام التطبيق!** 🤲
 

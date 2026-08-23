@@ -45,7 +45,7 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
                   ),
                   const SizedBox(height: 24),
                   const Text(
-                    'نور آية',
+                    'ومضة',
                     style: TextStyle(
                       fontSize: 36,
                       fontWeight: FontWeight.bold,
@@ -55,7 +55,7 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    'Noor Ayah',
+                    'Wamda',
                     style: TextStyle(
                       fontSize: 24,
                       color: Colors.white70,

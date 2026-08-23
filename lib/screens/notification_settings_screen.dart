@@ -124,7 +124,7 @@ class _NotificationSettingsScreenState
     }
 
     await NotificationService.showImmediateNotification(
-      title: '🌟 نور آية - اختبار',
+      title: '🌟 ومضة - اختبار',
       body: 'هذا إشعار تجريبي للتأكد من عمل الإشعارات',
     );
 

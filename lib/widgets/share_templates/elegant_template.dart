@@ -211,7 +211,7 @@ class ElegantTemplate extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            'نور آية',
+            'ومضة',
             style: TextStyle(
               fontFamily: 'IBMPlexArabic',
               fontSize: 44,
@@ -221,7 +221,7 @@ class ElegantTemplate extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           const Text(
-            'من كل آية.. نور وهداية',
+            'آية تضيء يومك',
             style: TextStyle(
               fontFamily: 'IBMPlexArabic',
               fontSize: 30,

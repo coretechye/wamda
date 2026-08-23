@@ -2,7 +2,7 @@
 
 ## نظرة عامة
 
-تم تحميل وتكوين جميع الخطوط اللازمة لدعم اللغات المتعددة في تطبيق **نور آية**. يدعم التطبيق حالياً:
+تم تحميل وتكوين جميع الخطوط اللازمة لدعم اللغات المتعددة في تطبيق **ومضة**. يدعم التطبيق حالياً:
 
 - 🇸🇦 **العربية** (ar) - مع 4 خطوط قرآنية للاختيار
 - 🇵🇰 **الأردية** (ur) - بخط نستعليق أصيل
@@ -80,10 +80,10 @@ fonts:
   - family: Lateef
   - family: Amiri
   - family: Cairo
-  
+
   # خطوط للغة الأردية
   - family: NotoNastaliqUrdu
-  
+
   # خطوط للغات اللاتينية
   - family: Roboto
   - family: NotoSans
@@ -138,7 +138,7 @@ Text(
    # انسخ الملف المحمل إلى مجلد الخطوط
    cp ~/Downloads/UthmanicHafs1Ver18.ttf \
       assets/fonts/UthmanicHafs1Ver18.ttf
-   
+
    # أعد بناء التطبيق
    flutter clean
    flutter pub get
@@ -216,7 +216,7 @@ class VerseCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final fontProvider = Provider.of<FontProvider>(context);
-    
+
     return Text(
       verseText,
       style: TextStyle(
@@ -238,7 +238,7 @@ class CustomText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final fontProvider = Provider.of<FontProvider>(context);
-    
+
     return Text(
       localizedText,
       style: TextStyle(
@@ -257,11 +257,11 @@ class CustomText extends StatelessWidget {
 class LocaleProvider extends ChangeNotifier {
   void setLocale(Locale locale) {
     _locale = locale;
-    
+
     // تحديث FontProvider بالغة الجديدة
     final fontProvider = Provider.of<FontProvider>(context, listen: false);
     fontProvider.setLocale(locale.languageCode);
-    
+
     notifyListeners();
   }
 }
@@ -294,7 +294,7 @@ class LocaleProvider extends ChangeNotifier {
      // ... الخطوط الموجودة
      newFont, // الخط الجديد
    }
-   
+
    extension QuranicFontExtension on QuranicFont {
      String get fontFamily {
        // ... الحالات الموجودة
@@ -403,9 +403,9 @@ flutter run
 
 ---
 
-**آخر تحديث:** أكتوبر 2025  
-**الإصدار:** 1.0.0  
+**آخر تحديث:** أكتوبر 2025
+**الإصدار:** 1.0.0
 **الحالة:** ✅ جاهز للاستخدام (مع ملاحظة بخصوص Uthmanic Hafs)
 
-**نور آية** - من كل آية.. نور وهداية 🌙
+**ومضة** - آية تضيء يومك 🌙
 

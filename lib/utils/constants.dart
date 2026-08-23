@@ -1,8 +1,8 @@
 /// ثوابت التطبيق
 class AppConstants {
   // معلومات التطبيق
-  static const String appName = 'نور آية';
-  static const String appSlogan = 'من كل آية.. نور وهداية';
+  static const String appName = 'ومضة';
+  static const String appSlogan = 'آية تضيء يومك';
   static const String appVersion = '1.0.0';
   static const String appDescription =
       'تطبيق تأملي يعرض آية من القرآن الكريم يوميًا مع تفسير موجز، تدبر، ودعاء';

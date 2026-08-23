@@ -127,7 +127,7 @@ if gh release view "$TAG" &>/dev/null; then
   gh release edit "$TAG" --notes "$NOTES"
 else
   gh release create "$TAG" "$APK_FILENAME" \
-    --title "Noor Ayah ${VERSION_NAME} (arm64-v8a)" \
+    --title "Wamda ${VERSION_NAME} (arm64-v8a)" \
     --notes "$NOTES"
 fi
 

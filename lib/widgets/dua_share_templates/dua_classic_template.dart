@@ -389,7 +389,7 @@ class DuaClassicTemplate extends StatelessWidget {
             ),
             const SizedBox(width: 15),
             const Text(
-              'نور آية',
+              'ومضة',
               style: TextStyle(
                 fontFamily: 'IBMPlexArabic',
                 fontSize: 38,
@@ -409,7 +409,7 @@ class DuaClassicTemplate extends StatelessWidget {
 
         // الشعار
         const Text(
-          'من كل آية.. نور وهداية',
+          'آية تضيء يومك',
           style: TextStyle(
             fontFamily: 'IBMPlexArabic',
             fontSize: 26,
