@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:noor_ayah/theme/app_colors.dart';
-import 'package:noor_ayah/providers/theme_provider.dart';
+import 'package:wamda/theme/app_colors.dart';
+import 'package:wamda/providers/theme_provider.dart';
 
 void main() {
   group('AppColors.getPrimaryColor', () {

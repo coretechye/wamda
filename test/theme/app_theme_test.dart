@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:noor_ayah/providers/theme_provider.dart';
-import 'package:noor_ayah/theme/app_theme.dart';
-import 'package:noor_ayah/theme/theme_colors.dart';
+import 'package:wamda/providers/theme_provider.dart';
+import 'package:wamda/theme/app_theme.dart';
+import 'package:wamda/theme/theme_colors.dart';
 
 void main() {
   group('AppTheme', () {

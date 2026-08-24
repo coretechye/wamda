@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:noor_ayah/models/verse_model.dart';
+import 'package:wamda/models/verse_model.dart';
 
 void main() {
   group('VerseModel.fromJson', () {
