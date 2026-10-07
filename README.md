@@ -99,7 +99,7 @@
 1. **استنساخ المشروع**
 ```bash
 git clone <repository-url>
-cd noor_ayah
+cd wamda
 ```
 
 2. **تثبيت المكتبات**

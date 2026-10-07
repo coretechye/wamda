@@ -7,10 +7,10 @@
 | Flutter root | `.` (جذر الريبو) |
 | `applicationId` | `ye.coretech.wamda` |
 | App name | ومضة |
-| `pubspec` name | `noor_ayah` |
+| `pubspec` name | `wamda` |
 | pubspec version | `1.0.2+2` |
-| Release tag prefix | `noor-ayah-v` |
-| APK pattern | `noor-ayah-v{X.Y.Z}-arm64-v8a.apk` |
+| Release tag prefix | `wamda-v` |
+| APK pattern | `wamda-v{X.Y.Z}-arm64-v8a.apk` |
 
 ---
 
@@ -33,7 +33,7 @@
 6. انسخ المخرجات إلى `{pubspec-name-lower}-v{X.Y.Z}-arm64-v8a.apk` في جذر الريبو:
    - المصدر: `build/app/outputs/flutter-apk/app-release.apk`
 7. أنشئ GitHub Release:
-   - Tag: `noor-ayah-v{X.Y.Z}` (استبدل `_` في اسم pubspec بـ `-`)
+   - Tag: `wamda-v{X.Y.Z}` (استبدل `_` في اسم pubspec بـ `-`)
    - ملف: APK أعلاه
    - ملاحظات: arm64-v8a فقط، `applicationId` ثابت، توقيع `release.keystore`.
 8. **أرسل للمستخدم:** رابط صفحة Release + **رابط التحميل المباشر** للأصل + النسخة `X.Y.Z+BUILD`.

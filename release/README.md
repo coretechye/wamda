@@ -17,7 +17,7 @@ git push origin v1.0.0
 | المعمارية | arm64-v8a (ARMv8 / 64-bit) |
 | الإصدار الحالي | 1.0.0 |
 
-رابط الإصدارات: [GitHub Releases](https://github.com/MajedQ/noor_ayah/releases)
+رابط الإصدارات: [GitHub Releases](https://github.com/coretechye/wamda/releases)
 
 ## البناء المحلي
 

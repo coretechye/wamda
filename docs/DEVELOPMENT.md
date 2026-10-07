@@ -408,7 +408,7 @@
 
 ### تشغيل سريع:
 ```bash
-cd /Users/ZahraahIT/Documents/MQ/Noor_Ayah_app/noor_ayah
+cd /Users/ZahraahIT/Documents/MQ/wamda
 flutter pub get
 flutter run
 ```
@@ -438,7 +438,7 @@ flutter build ios --release
 ## 📂 هيكل المشروع
 
 ```
-noor_ayah/
+wamda/
 ├── lib/
 │   ├── main.dart
 │   ├── providers/        # 7 providers

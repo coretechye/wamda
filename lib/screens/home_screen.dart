@@ -18,6 +18,7 @@ import 'verse_details_screen.dart';
 import 'dua_of_day_screen.dart';
 import 'daily_wird_screen.dart';
 import 'achievements_screen.dart';
+import '../widgets/reels_home_banner.dart';
 
 /// الشاشة الرئيسية - آية اليوم
 class HomeScreen extends StatefulWidget {
@@ -213,7 +214,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
 
-            const SizedBox(height: 16),
+            const SizedBox(height: 14),
+
+            // ومضات
+            ReelsHomeBanner(isDark: isDark),
+
+            const SizedBox(height: 14),
 
             // بطاقة دعاء اليوم
             _buildDuaOfDaySection(context, isDark),

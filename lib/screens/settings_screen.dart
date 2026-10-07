@@ -16,6 +16,9 @@ import 'font_selection_screen.dart';
 import 'notification_settings_screen.dart';
 import 'achievements_screen.dart';
 import 'sync_screen.dart';
+import 'reels_screen.dart';
+import '../providers/reels_provider.dart';
+import '../services/reels_cache_service.dart';
 
 /// شاشة الإعدادات
 class SettingsScreen extends StatelessWidget {
@@ -84,6 +87,33 @@ class SettingsScreen extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: (_) => const SyncScreen(),
+                    ),
+                  );
+                },
+                isDark: isDark,
+              ),
+            ],
+          ),
+
+          const Divider(height: 32),
+
+          // ومضات
+          _buildSection(
+            title: 'ومضات',
+            icon: Icons.play_circle_outline,
+            isDark: isDark,
+            children: [
+              _buildReelsQualityTile(context, isDark),
+              _buildReelsClearCacheTile(context, isDark),
+              _buildListTile(
+                icon: Icons.video_collection_outlined,
+                title: 'تصفح ومضات',
+                subtitle: 'تلاوات ومواعظ وتدبر بسحب رأسي خفيف',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const ReelsScreen(),
                     ),
                   );
                 },
@@ -839,6 +869,57 @@ class SettingsScreen extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildReelsQualityTile(BuildContext context, bool isDark) {
+    return ListTile(
+      leading: const Icon(
+        Icons.hd_rounded,
+        color: AppColors.brandPrimary,
+        size: 26,
+      ),
+      title: const Text('دقة ومضات (الافتراضية)'),
+      subtitle: const Text('720p HD كحد أدنى عالي الوضوح والنقاء'),
+      trailing: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+        decoration: BoxDecoration(
+          color: const Color(0xFF2D5F3F).withOpacity(0.15),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: const Color(0xFF2D5F3F),
+            width: 1,
+          ),
+        ),
+        child: const Text(
+          '720p HD',
+          style: TextStyle(
+            color: Color(0xFF2D5F3F),
+            fontSize: 12,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildReelsClearCacheTile(BuildContext context, bool isDark) {
+    return ListTile(
+      leading: Icon(Icons.cleaning_services_outlined, color: AppColors.brandPrimary),
+      title: const Text('تفريغ ذاكرة المقاطع المؤقتة (Cache)'),
+      subtitle: const Text('حذف المقاطع المخزنة مؤقتاً لتوفير مساحة الهاتف'),
+      trailing: const Icon(Icons.chevron_right),
+      onTap: () async {
+        await ReelsCacheService().clearCache();
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('تم تفريغ ذاكرة المقاطع المؤقتة بنجاح ✅'),
+              backgroundColor: Color(0xFF2D5F3F),
+            ),
+          );
+        }
+      },
     );
   }
 }

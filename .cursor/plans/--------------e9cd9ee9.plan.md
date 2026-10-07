@@ -121,7 +121,7 @@
 **الملفات:**
 
 - إنشاء `lib/widgets/home_widget.dart` - Widget للشاشة الرئيسية
-- إنشاء platform channels في Android: `android/app/src/main/kotlin/com/noorayah/app/HomeWidgetProvider.kt`
+- إنشاء platform channels في Android: `android/app/src/main/kotlin/ye/coretech/wamda/HomeWidgetProvider.kt`
 - إنشاء layout في Android: `android/app/src/main/res/layout/widget_layout.xml`
 - إنشاء iOS Widget Extension (اختياري): `ios/WidgetExtension/`
 

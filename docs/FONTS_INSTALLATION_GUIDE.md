@@ -162,7 +162,7 @@ QuranicFont _selectedFont = QuranicFont.scheherazade;
 ### 1. تشغيل التطبيق
 
 ```bash
-cd /Users/ZahraahIT/Documents/MQ/Noor_Ayah_app/noor_ayah
+cd /Users/ZahraahIT/Documents/MQ/wamda
 flutter clean
 flutter pub get
 flutter run

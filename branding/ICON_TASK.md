@@ -1,6 +1,6 @@
 # Icon Task — ومضة
 
-The project key is `noor_ayah`, the product is a daily-verse application, and the approved brand is **ومضة** (`Wamda`) with the tagline **آية تضيء يومك**. The audience is people who want a calm daily verse, reflection, supplication, reminders, and personal reading settings.
+The project key is `wamda`, the product is a daily-verse application, and the approved brand is **ومضة** (`Wamda`) with the tagline **آية تضيء يومك**. The audience is people who want a calm daily verse, reflection, supplication, reminders, and personal reading settings.
 
 The visual direction is a quiet luminous spark emerging from an abstract open page. It suggests light and reflection without miniature religious writing, people, or copied religious emblems. The palette is midnight blue, warm ivory, restrained gold, and a small cyan glow. The symbol has generous safe margins and is designed to remain clear under circular launcher masks and on both light and dark surfaces.
 

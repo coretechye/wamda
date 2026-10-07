@@ -4,6 +4,7 @@ import 'categories_screen.dart';
 import 'favorites_screen.dart';
 import 'search_screen.dart';
 import 'settings_screen.dart';
+import 'reels_screen.dart';
 
 /// الشاشة الرئيسية التي تحتوي على Bottom Navigation
 class MainScreen extends StatefulWidget {
@@ -89,6 +90,24 @@ class _MainScreenState extends State<MainScreen> {
           onPageChanged: _onPageChanged,
           physics: const NeverScrollableScrollPhysics(), // تعطيل السحب
           children: _screens,
+        ),
+        floatingActionButton: FloatingActionButton.extended(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const ReelsScreen()),
+            );
+          },
+          backgroundColor: const Color(0xFF2D5F3F),
+          elevation: 4,
+          icon: const Icon(Icons.play_circle_fill_rounded, color: Color(0xFFD4AF37)),
+          label: const Text(
+            'ومضات',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
         ),
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _currentIndex,

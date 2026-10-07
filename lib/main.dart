@@ -17,6 +17,7 @@ import 'providers/achievements_provider.dart';
 import 'providers/dua_provider.dart';
 import 'providers/audio_provider.dart';
 import 'providers/wird_provider.dart';
+import 'providers/reels_provider.dart';
 import 'services/local_storage_service.dart';
 import 'services/notification_service.dart';
 import 'utils/constants.dart';
@@ -66,6 +67,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => DuaProvider()..loadDuas()),
         ChangeNotifierProvider(create: (_) => AudioProvider()),
         ChangeNotifierProvider(create: (_) => WirdProvider()..init()),
+        ChangeNotifierProvider(create: (_) => ReelsProvider()),
       ],
       child: Consumer2<ThemeProvider, LocaleProvider>(
         builder: (context, themeProvider, localeProvider, child) {
