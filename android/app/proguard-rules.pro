@@ -24,6 +24,11 @@
 -keep class com.ryanheise.just_audio.** { *; }
 -keep class com.ryanheise.audio_service.** { *; }
 
+# Keep video player classes
+-keep class io.flutter.plugins.videoplayer.** { *; }
+-keep class androidx.media3.** { *; }
+-keep class com.google.android.exoplayer2.** { *; }
+
 # Keep network classes
 -keep class okhttp3.** { *; }
 -keep class retrofit2.** { *; }

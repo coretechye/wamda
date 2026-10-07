@@ -8,7 +8,7 @@
 | `applicationId` | `ye.coretech.wamda` |
 | App name | ومضة |
 | `pubspec` name | `wamda` |
-| pubspec version | `1.0.2+2` |
+| pubspec version | `1.0.3+3` |
 | Release tag prefix | `wamda-v` |
 | APK pattern | `wamda-v{X.Y.Z}-arm64-v8a.apk` |
 
@@ -50,7 +50,7 @@
 
 ## GitHub Actions
 
-- **محذوف:** `release-apk.yml` (بناء ونشر APK).
-- **متبقي:** `ci.yml` — `flutter analyze` و `flutter test` على `main` / PR (لا يبني APK).
+- `ci.yml`: فحص وتحليل واختبار (`flutter analyze` و `flutter test`).
+- `release-apk.yml`: بناء سحابي مؤتمت لـ APK (`arm64-v8a`) موقع بمفتاح `release.keystore` ونشره إلى GitHub Releases دون تحميل أي حزم على الجهاز المحلي.
 
-بناء APK: **Cursor Cloud Agent** فقط — هذا الملف و `scripts/release-apk-v8.sh`.
+البناء متاح إما سحابياً عبر دفع Tag أو يدويًا via GitHub Actions (`release-apk.yml`) أو محلياً عبر `scripts/release-apk-v8.sh`.

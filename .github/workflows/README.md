@@ -1,5 +1,4 @@
 # GitHub Actions
 
-بناء APK: **Cursor Cloud Agent** — راجع `AGENTS.md` و `scripts/release-apk-v8.sh`.
-
-لا يوجد workflow لبناء أو نشر APK على GitHub Actions.
+- `ci.yml`: تحليل واختبار الكود.
+- `release-apk.yml`: بناء ونشر APK (arm64-v8a) موقع بـ `release.keystore` إلى GitHub Releases سحابياً.
