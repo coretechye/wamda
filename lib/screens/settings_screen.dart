@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../l10n/app_localizations.dart';
 import '../providers/theme_provider.dart';
 import '../providers/favorites_provider.dart';
 import '../providers/verse_provider.dart';
@@ -874,7 +874,7 @@ class SettingsScreen extends StatelessWidget {
 
   Widget _buildReelsQualityTile(BuildContext context, bool isDark) {
     return ListTile(
-      leading: const Icon(
+      leading: Icon(
         Icons.hd_rounded,
         color: AppColors.brandPrimary,
         size: 26,

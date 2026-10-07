@@ -23,8 +23,10 @@ class ReelsProvider extends ChangeNotifier {
   Duration _currentPosition = Duration.zero;
   Duration _totalDuration = Duration.zero;
   bool _isMuted = false;
+  bool _dataSaverMode = false;
   static const String minResolution = '720p HD'; // الحد الأدنى للدقة 720p HD
   String get currentResolution => minResolution;
+  bool get dataSaverMode => _dataSaverMode;
 
   final Set<String> _favoriteIds = {};
   final Set<String> _offlineDownloadedIds = {};

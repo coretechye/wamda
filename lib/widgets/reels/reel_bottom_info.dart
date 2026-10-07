@@ -31,10 +31,10 @@ class _ReelBottomInfoState extends State<ReelBottomInfo> {
     if (widget.reel.surahNumber == null || widget.reel.ayahNumber == null) return;
 
     final verseProvider = context.read<VerseProvider>();
-    final verses = verseProvider.verses;
+    final verses = verseProvider.allVerses;
     final match = verses.where((v) =>
         v.surahNumber == widget.reel.surahNumber &&
-        v.numberInSurah == widget.reel.ayahNumber).toList();
+        v.verseNumber == widget.reel.ayahNumber).toList();
 
     if (match.isNotEmpty) {
       context.read<ReelsProvider>().pause();
