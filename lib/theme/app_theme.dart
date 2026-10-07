@@ -45,7 +45,7 @@ class AppTheme {
       ),
 
       // البطاقات
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 4,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
@@ -191,7 +191,7 @@ class AppTheme {
       ),
 
       // البطاقات
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 4,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
